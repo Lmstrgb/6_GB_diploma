@@ -1,4 +1,4 @@
-## Разработка веб-приложения "Interno"
+## Разработка веб-приложения "ReserveService"
 ## SPA приложение на Vue.js 3.
 
 ## Иcпользуемые технологии
@@ -11,18 +11,19 @@
 - Grid
 - Git
 - Swiper JS library
+- Formspree.io
+- gh-pages
 
 ## Техническое задание
 
-Посмотреть [Техническое задание](https://gbcdn.mrgcdn.ru/uploads/asset/5668666/attachment/5a4b32939f7165e4aeebff3acde8c9b4.pdf)
+Посмотреть [Техническое задание] (произвольно выбранное, согласованное с представителями Geek Brains)
 
 ## Ссылка на макет проекта
 
-Посмотреть [Макет](<https://www.figma.com/file/okdYD45Tj2JpKsNASccUmf/Interior-Design-Webflow-Website-Template-(Community)-(Copy)-(Copy)?type=design&node-id=1-5&mode=design&t=EPP9PdQtvZ8kah8U-0>)
-
+Посмотреть [Макет] (макета как такового нет)
 ## Ссылка на GitHub Pages
 
-Посмотреть [Сайт Interno](https://dimakravchenko1989.github.io/Final-Project/)
+Посмотреть [Сайт ReserveService](https://)
 ## Реализованные задачи
 
 1. Применение HTML, CSS, JavaScript, Vue.js.
@@ -72,4 +73,4 @@ npm run build
 
 ### Настройка конфигурации
 
-Посмотреть [Configuration Reference](https://cli.vuejs.org/config/)
+Посмотреть [Configuration Reference](https://cli.vuejs.org/guide/deployment.html)

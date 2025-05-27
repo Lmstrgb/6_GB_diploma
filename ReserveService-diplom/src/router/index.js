@@ -32,7 +32,7 @@ const routes = [
     path: '/projectdetails/:id',
     name: 'ProjectDetails',
     component: ProjectDetails,
-    props:true
+    props: true
   },
   {
     path: '/:CatchAll(.*)',
@@ -46,8 +46,13 @@ const routes = [
   }
 ]
 
+// const router = createRouter({
+//   history: createWebHistory(process.env.BASE_URL),
+//   routes
+// })
+
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(),
   routes
 })
 

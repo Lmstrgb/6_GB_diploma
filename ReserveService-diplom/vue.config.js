@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: `/`, // /Final-Project/
+  publicPath: '/6_GB_diploma/',
   transpileDependencies: true
 })
