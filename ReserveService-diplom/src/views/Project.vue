@@ -456,7 +456,7 @@ export default {
       listOfButtons: [
         { id: "machine", title: "Станки" },
         { id: "automation", title: "Автоматизация" },
-        { id: "compressor", title: "Компрессора" },
+        { id: "compressor", title: "Компрессоры" },
         { id: "mpp", title: "ГОК" },
       ],
       buttonIsActive: "compressor",
