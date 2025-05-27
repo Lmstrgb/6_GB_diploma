@@ -1,0 +1,16 @@
+$font-montserrat: 'Montserrat', sans-serif;
+
+// Подключение шрифта
+@font-face {
+  font-family: 'Montserrat';
+  src: url('@/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; // Variable Font поддерживает диапазон весов
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('@/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}

@@ -1,0 +1,61 @@
+
+.swiper {
+    width: 100%;
+    height: 100%;
+
+    // Стили для стрелок навигации
+    .swiper-button-next,
+    .swiper-button-prev {
+        background-color: rgba(60, 83, 133, 0.8); // Полупрозрачный фон
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        
+        // Центрирование иконки
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        // Увеличение размера иконки
+        &::after {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        &:hover {
+            background-color: rgba(60, 83, 133, 0.9); // Менее прозрачный при наведении
+            transform: scale(1.1);
+        }
+    }
+}
+
+.swiper-slide {
+    overflow: hidden;
+
+    &__img {
+        width: 100%;
+    }
+}
+
+.swiper-pagination {
+    &-bullet {
+        width: 18px;
+        height: 18px;
+        background: #aebad6;
+        opacity: 0.5;
+        transition: all 0.3s ease;
+        
+        &-active {
+            opacity: 1;
+            background: #3c5385;
+            transform: scale(1.3);
+            box-shadow: 0 0 10px rgba(60, 83, 133, 0.8);
+        }
+        
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
