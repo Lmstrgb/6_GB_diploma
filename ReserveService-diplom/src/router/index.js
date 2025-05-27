@@ -51,9 +51,18 @@ const routes = [
 //   routes
 // })
 
+//Этот был рабочий если адрес нужен https://lmstrgb.github.io/6_GB_diploma/
+// const router = createRouter({
+//   history: createWebHistory(process.env.NODE_ENV === 'production'
+//     ? '/6_GB_diploma/'
+//     : '/'),
+//   routes
+// })
+
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory('/6_GB_diploma/ReserveService/'),  // Фиксированный базовый путь
   routes
 })
+
 
 export default router;
